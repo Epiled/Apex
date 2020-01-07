@@ -5,7 +5,7 @@
 /*   Imagens   */
 .capa-fundo-image{
 	background-size: 100%;
-	background-image: url(fundoApex.png);
+	background-image: url(img/fundoApex.png);
 	background-repeat: no-repeat;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .fundo-ver{
-	background-image: url(fundo-bot.jpg);
+	background-image: url(img/fundo-bot.jpg);
 	background-repeat: no-repeat;
 }
 
@@ -67,6 +67,8 @@
 
 .sub-title-image h2{
 	text-transform: uppercase;
+	font-size: 20px;
+	margin-bottom: 15px;
 }
 
 div>div>div img{
@@ -119,4 +121,33 @@ ion-icon{
 	color: RGB(218, 41, 42);
 	margin-right: 20px;
 	margin-top: 10px;
+}
+
+hr ~ img{
+	margin-top: 10px;
+}
+
+footer img{
+	margin-top: 40px;
+}
+
+footer a{
+	display: inline-block;
+	margin-top: 15px;
+	margin-right: 25px;
+	color: gray;
+	text-transform: uppercase;
+}
+
+footer p{
+	margin: 0;
+	font-weight: 900;
+}
+
+.fot-p{
+	color: gray;
+	font-size: 10px;
+	margin-right: 30px;
+	margin-top: 30px;
+	display: inline-block;
 }

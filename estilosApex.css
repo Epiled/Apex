@@ -1,0 +1,122 @@
+.container{
+	width: 100%;
+}
+
+/*   Imagens   */
+.capa-fundo-image{
+	background-size: 100%;
+	background-image: url(fundoApex.png);
+	background-repeat: no-repeat;
+}
+
+.image-space{
+	left: 0;
+	position: absolute;
+	width: 100%;
+	margin-top: 10%;
+}
+
+.fundo-ver{
+	background-image: url(fundo-bot.jpg);
+	background-repeat: no-repeat;
+}
+
+/*    Alinhamentos   */
+.capa-center{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+/*    Fonte       */
+.texto-capa h2{
+	font-size: 25px;
+	max-width: 650px;
+}
+
+.texto-capa h2, h6{
+	color: white;
+	font-weight: 400;
+	margin-top: 5%;
+}
+
+/*    Botões    */
+.btn-outline-custom{
+	width: 90%;
+	border: solid 2px white;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+.btn-custom{
+	left: 0;
+	width: 100%;
+	position: absolute;
+	padding: 12px 0;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.sub-title-image{
+	top: 270px;
+	position: relative;
+	display: block;
+}
+
+.sub-title-image h2{
+	text-transform: uppercase;
+}
+
+div>div>div img{
+	width: 100%;
+}
+
+div>div>div h3{
+	margin-top: 5%;
+	margin-bottom: 15%;
+}
+
+.end h3{
+	margin-top: 10%;
+}
+
+.end p{
+	font-size: 22px;
+	margin-top: 10%;
+}
+
+.end{
+	color: white;
+}
+
+.a-bloco{
+	background: #161619;
+}
+
+
+.a-bloco a{
+	width: 49%;
+	display: inline-block;
+	text-decoration: none;
+	margin-top: 5%;
+	color: #a3a3ae;
+	font-weight: 600;
+}
+
+hr{
+	border: solid 1px #6a6a6a;
+}
+
+hr ~ h3{
+	color: white;
+	font-size: 15px;
+}
+
+ion-icon{
+	font-size: 25px;
+	color: RGB(218, 41, 42);
+	margin-right: 20px;
+	margin-top: 10px;
+}

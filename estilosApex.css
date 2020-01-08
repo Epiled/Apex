@@ -2,6 +2,13 @@
 	width: 100%;
 }
 
+
+.space-menu{
+	border-top: 1px solid white;
+	width: 290%;
+	box-sizing: content-box;
+}
+
 /*   Imagens   */
 .capa-fundo-image{
 	background-size: 100%;
@@ -150,4 +157,8 @@ footer p{
 	margin-right: 30px;
 	margin-top: 30px;
 	display: inline-block;
+}
+
+@media screen and (max-width: 767px){
+	
 }
